@@ -28,6 +28,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 find_package(Qt6 ${QT_MIN_VERSION} CONFIG REQUIRED COMPONENTS
     Gui
     Core
+    CorePrivate
     DBus
     UiTools
     Widgets
